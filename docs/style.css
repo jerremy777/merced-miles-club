@@ -1,15 +1,26 @@
 body {
-    background: #ffffff;
     color: #000000;
     /* font-family: Georgia, "Times New Roman", serif; */
-    margin: 0;
+    margin: 0 10%;
     padding: 0;
 }
 
 main {
+    background-image: url('lake-merced-scanned-gb1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-color: #f0e5e5;
     /* max-width: 640px; */
-    margin: 40px 10%;
+    /* margin: 40px 10%; */
     padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.92);
+    /* Adjust 0.92 to control transparency */
+    /* Keep existing styles */
 }
 
 .top-bar {
@@ -17,6 +28,9 @@ main {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    /* margin: -40px -10% 20px -10%; */
 }
 
 .nav-links {
