@@ -107,3 +107,27 @@ p {
     margin-left: 20px;
     font-family: monospace;
 }
+
+table.finishers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: .8rem;
+}
+
+table.finishers-table th,
+table.finishers-table td {
+    border: 1px solid #5d5d5d;
+    padding: 8px;
+}
+
+table.finishers-table th {
+    background-color: #b8c6ff;
+    text-align: left;
+}
+
+/* Message column */
+table.finishers-table td:nth-child(5) {
+    font-style: italic;
+}
